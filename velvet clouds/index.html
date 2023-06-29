@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./stylename.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="page__header">
+                    <div class="header__container">
+                        <div class="header__inner">
+                            <div class="burger">
+                                <div class="b1"></div>
+                                <div class="b2"></div>
+                                <div class="b3"></div>
+                            </div>
+                            <nav class="nav">
+                                <ul class="header__text-items">
+                                    <li class="header__text-item">
+                                        <a
+                                            href="#page__info"
+                                            class="header__text-item-link"
+                                            >INFO</a
+                                        >
+                                    </li>
+                                    <li class="header__text-item">
+                                        <a
+                                            href="#page__schedule"
+                                            class="header__text-item-link"
+                                            >SCHEDULE</a
+                                        >
+                                    </li>
+                                    <li class="header__text-item">
+                                        <a
+                                            href="#page__contact"
+                                            class="header__text-item-link"
+                                            >CONTACT</a
+                                        >
+                                    </li>
+                                </ul>
+                                <div class="header__icons">
+                                    <div class="header__icons-img">
+                                        <a
+                                            href="#"
+                                            class="header__icons-img-link"
+                                        >
+                                            <svg
+                                                width="25"
+                                                class="header__icons-image"
+                                                height="25"
+                                                viewBox="0 0 25 25"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    id="Subtract"
+                                                    d="M12.2962 0.673256C9.03689 0.673256 8.62785 0.687508 7.34771 0.745764C6.07007 0.80427 5.19798 1.00654 4.43489 1.30332C3.64556 1.60986 2.97599 2.0199 2.30891 2.68722C1.64134 3.3543 1.2313 4.02387 0.923763 4.81295C0.626231 5.57629 0.423709 6.44863 0.366203 7.72577C0.308947 9.00591 0.293945 9.4152 0.293945 12.6746C0.293945 15.9339 0.308447 16.3417 0.366453 17.6218C0.42521 18.8995 0.627482 19.7716 0.924014 20.5347C1.2308 21.324 1.64084 21.9936 2.30816 22.6606C2.97499 23.3282 3.64456 23.7393 4.43339 24.0458C5.19698 24.3426 6.06932 24.5448 7.34671 24.6033C8.62685 24.6616 9.03564 24.6759 12.2947 24.6759C15.5543 24.6759 15.9621 24.6616 17.2423 24.6033C18.5199 24.5448 19.393 24.3426 20.1566 24.0458C20.9457 23.7393 21.6143 23.3282 22.2811 22.6606C22.9486 21.9936 23.3587 21.324 23.6662 20.5349C23.9613 19.7716 24.1638 18.8992 24.2238 17.6221C24.2813 16.342 24.2963 15.9339 24.2963 12.6746C24.2963 9.4152 24.2813 9.00616 24.2238 7.72602C24.1638 6.44838 23.9613 5.57629 23.6662 4.8132C23.3587 4.02387 22.9486 3.3543 22.2811 2.68722C21.6135 2.01965 20.9459 1.60961 20.1558 1.30332C19.3908 1.00654 18.5182 0.80427 17.2405 0.745764C15.9604 0.687508 15.5528 0.673256 12.2925 0.673256H12.2962ZM11.2196 2.83599C11.5392 2.83549 11.8957 2.83599 12.2962 2.83599C15.5006 2.83599 15.8804 2.84749 17.1458 2.905C18.3159 2.9585 18.951 3.15402 19.374 3.31829C19.9341 3.53582 20.3334 3.79584 20.7532 4.21589C21.1732 4.63593 21.4332 5.03598 21.6513 5.59604C21.8155 6.01858 22.0113 6.65365 22.0646 7.82378C22.1221 9.08892 22.1346 9.46896 22.1346 12.6718C22.1346 15.8747 22.1221 16.2547 22.0646 17.5198C22.011 18.69 21.8155 19.325 21.6513 19.7476C21.4337 20.3076 21.1732 20.7064 20.7532 21.1262C20.3331 21.5463 19.9343 21.8063 19.374 22.0238C18.9515 22.1888 18.3159 22.3839 17.1458 22.4374C15.8806 22.4949 15.5006 22.5074 12.2962 22.5074C9.09165 22.5074 8.71186 22.4949 7.44672 22.4374C6.27659 22.3834 5.64152 22.1878 5.21823 22.0236C4.65817 21.806 4.25812 21.546 3.83808 21.126C3.41803 20.7059 3.15801 20.3069 2.93998 19.7466C2.77571 19.324 2.57994 18.689 2.52669 17.5188C2.46918 16.2537 2.45768 15.8737 2.45768 12.6688C2.45768 9.46396 2.46918 9.08592 2.52669 7.82078C2.58019 6.65065 2.77571 6.01558 2.93998 5.59254C3.15751 5.03248 3.41803 4.63243 3.83808 4.21239C4.25812 3.79234 4.65817 3.53232 5.21823 3.31429C5.64127 3.14927 6.27659 2.95425 7.44672 2.9005C8.55384 2.85049 8.98289 2.83549 11.2196 2.83299V2.83599ZM18.7024 4.82871C17.9074 4.82871 17.2623 5.47302 17.2623 6.26836C17.2623 7.06345 17.9074 7.70852 18.7024 7.70852C19.4975 7.70852 20.1426 7.06345 20.1426 6.26836C20.1426 5.47327 19.4975 4.82821 18.7024 4.82821V4.82871ZM12.2962 6.51139C8.89263 6.51139 6.13308 9.27094 6.13308 12.6746C6.13308 16.0782 8.89263 18.8365 12.2962 18.8365C15.6999 18.8365 18.4584 16.0782 18.4584 12.6746C18.4584 9.27094 15.6996 6.51139 12.296 6.51139H12.2962ZM12.2962 8.67412C14.5055 8.67412 16.2967 10.4651 16.2967 12.6746C16.2967 14.8838 14.5055 16.675 12.2962 16.675C10.0868 16.675 8.29581 14.8838 8.29581 12.6746C8.29581 10.4651 10.0868 8.67412 12.2962 8.67412V8.67412Z"
+                                                    fill="white"
+                                                />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="header__icons-img">
+                                        <a
+                                            href="#"
+                                            class="header__icons-img-link"
+                                        >
+                                            <svg
+                                                width="26"
+                                                class="header__icons-image"
+                                                height="23"
+                                                viewBox="0 0 26 23"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    id="Twitter"
+                                                    d="M0.137817 19.4233C2.81756 19.5741 5.16089 18.9477 7.44621 17.2888C5.13769 16.8944 3.53681 15.8387 2.66676 13.6578C3.3396 13.565 3.93123 13.739 4.62727 13.4606C2.35355 12.4629 0.88026 10.9664 0.822257 8.37949C1.5415 8.43749 2.08673 8.91312 2.94518 8.84352C0.857065 6.80181 0.219022 4.57449 1.52989 1.87154C3.71081 4.37728 6.26296 6.08257 9.38352 6.88301C9.55753 6.92941 9.71993 6.97582 9.89394 7.01062C10.6944 7.19623 11.6456 7.59065 12.1329 7.53265C12.9681 7.42824 12.1329 6.46539 12.3417 5.21252C13.0029 1.31471 17.2951 -0.460185 20.4737 1.82514C21.4018 2.49797 22.1326 2.48637 23.0491 2.08035C23.5247 1.87154 24.0119 1.66273 24.5803 1.41912C24.4527 2.53278 23.5943 3.14761 22.9099 3.97125C23.6871 4.14526 24.3135 3.92485 25.0328 3.69284C24.7891 4.49328 24.1859 4.94571 23.6407 5.38653C23.0723 5.83895 22.8518 6.31458 22.8286 7.05702C22.4806 18.298 9.70834 26.9869 0.973071 20.0729C0.126225 19.4001 0.949861 20.0729 0.137817 19.4233Z"
+                                                    fill="white"
+                                                />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="header__icons-img">
+                                        <a
+                                            href="#"
+                                            class="header__icons-img-link"
+                                        >
+                                            <svg
+                                                width="24"
+                                                class="header__icons-image"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    id="Vector"
+                                                    d="M11.8756 0.134567C5.4634 0.134567 0.265259 5.33271 0.265259 11.745C0.265259 18.1572 5.4634 23.3553 11.8756 23.3553C18.2879 23.3553 23.486 18.1572 23.486 11.745C23.486 5.33271 18.2879 0.134567 11.8756 0.134567ZM16.9286 16.9844C16.781 17.237 16.5153 17.3779 16.2424 17.3779C16.1064 17.3779 15.9685 17.3429 15.8426 17.2693C13.7562 16.05 11.3459 15.854 9.69085 15.9044C7.85757 15.9601 6.51315 16.322 6.49979 16.3257C6.07719 16.4412 5.64046 16.1925 5.52454 15.7699C5.40867 15.3474 5.65648 14.911 6.07887 14.7946C6.13947 14.7779 7.58619 14.385 9.598 14.3186C10.783 14.2795 11.9238 14.3621 12.9883 14.5641C14.3365 14.8198 15.5664 15.2688 16.6437 15.8984C17.0224 16.1196 17.1499 16.6059 16.9286 16.9844ZM18.4047 13.9188C18.2299 14.218 17.9151 14.3848 17.5918 14.3849C17.4307 14.3849 17.2674 14.3435 17.1182 14.2563C14.6469 12.8119 11.7917 12.5799 9.83137 12.6395C7.65976 12.7055 6.06725 13.1342 6.05145 13.1386C5.55098 13.2751 5.03357 12.9808 4.89625 12.4803C4.75899 11.9797 5.05258 11.4628 5.55288 11.325C5.62466 11.3052 7.33832 10.8397 9.72136 10.7611C11.1251 10.7149 12.4764 10.8127 13.7373 11.0518C15.3343 11.3548 16.7911 11.8866 18.0672 12.6324C18.5157 12.8944 18.6668 13.4704 18.4047 13.9188ZM19.3121 11.1314C19.1144 11.1314 18.9141 11.0806 18.7311 10.9736C12.8556 7.53988 5.23404 9.58122 5.15775 9.60229C4.54348 9.77154 3.90846 9.41078 3.73926 8.79656C3.57002 8.18234 3.93077 7.54726 4.545 7.37807C4.63301 7.3538 6.73501 6.78285 9.65805 6.68647C11.38 6.62978 13.0374 6.74968 14.584 7.04305C16.5429 7.41467 18.3299 8.0669 19.8952 8.98172C20.4452 9.30316 20.6305 10.0096 20.3091 10.5597C20.0946 10.9267 19.7086 11.1314 19.3121 11.1314Z"
+                                                    fill="white"
+                                                />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </nav>
+                            <div class="header__pos-bg-lines">
+                                <img
+                                    src="./img/header/Lineslines.svg"
+                                    alt="lines"
+                                    class="header__pos-image-lines"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__pos-bg">
+                        <img
+                            src="./img/main/tour/bg.png"
+                            alt="bg"
+                            class="header__pos-bg-image"
+                        />
+                    </div>
+                    <nav class="nav nav-burger hide-burger">
+                        <ul class="header__text-items">
+                            <li class="header__text-item">
+                                <a
+                                    href="#page__info"
+                                    class="header__text-item-link"
+                                    >INFO</a
+                                >
+                            </li>
+                            <li class="header__text-item">
+                                <a
+                                    href="#page__schedule"
+                                    class="header__text-item-link"
+                                    >SCHEDULE</a
+                                >
+                            </li>
+                            <li class="header__text-item">
+                                <a
+                                    href="#page__contact"
+                                    class="header__text-item-link"
+                                    >CONTACT</a
+                                >
+                            </li>
+                        </ul>
+                        <div class="header__icons">
+                            <div class="header__icons-img">
+                                <a href="#" class="header__icons-img-link">
+                                    <svg
+                                        width="25"
+                                        class="header__icons-image"
+                                        height="25"
+                                        viewBox="0 0 25 25"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            id="Subtract"
+                                            d="M12.2962 0.673256C9.03689 0.673256 8.62785 0.687508 7.34771 0.745764C6.07007 0.80427 5.19798 1.00654 4.43489 1.30332C3.64556 1.60986 2.97599 2.0199 2.30891 2.68722C1.64134 3.3543 1.2313 4.02387 0.923763 4.81295C0.626231 5.57629 0.423709 6.44863 0.366203 7.72577C0.308947 9.00591 0.293945 9.4152 0.293945 12.6746C0.293945 15.9339 0.308447 16.3417 0.366453 17.6218C0.42521 18.8995 0.627482 19.7716 0.924014 20.5347C1.2308 21.324 1.64084 21.9936 2.30816 22.6606C2.97499 23.3282 3.64456 23.7393 4.43339 24.0458C5.19698 24.3426 6.06932 24.5448 7.34671 24.6033C8.62685 24.6616 9.03564 24.6759 12.2947 24.6759C15.5543 24.6759 15.9621 24.6616 17.2423 24.6033C18.5199 24.5448 19.393 24.3426 20.1566 24.0458C20.9457 23.7393 21.6143 23.3282 22.2811 22.6606C22.9486 21.9936 23.3587 21.324 23.6662 20.5349C23.9613 19.7716 24.1638 18.8992 24.2238 17.6221C24.2813 16.342 24.2963 15.9339 24.2963 12.6746C24.2963 9.4152 24.2813 9.00616 24.2238 7.72602C24.1638 6.44838 23.9613 5.57629 23.6662 4.8132C23.3587 4.02387 22.9486 3.3543 22.2811 2.68722C21.6135 2.01965 20.9459 1.60961 20.1558 1.30332C19.3908 1.00654 18.5182 0.80427 17.2405 0.745764C15.9604 0.687508 15.5528 0.673256 12.2925 0.673256H12.2962ZM11.2196 2.83599C11.5392 2.83549 11.8957 2.83599 12.2962 2.83599C15.5006 2.83599 15.8804 2.84749 17.1458 2.905C18.3159 2.9585 18.951 3.15402 19.374 3.31829C19.9341 3.53582 20.3334 3.79584 20.7532 4.21589C21.1732 4.63593 21.4332 5.03598 21.6513 5.59604C21.8155 6.01858 22.0113 6.65365 22.0646 7.82378C22.1221 9.08892 22.1346 9.46896 22.1346 12.6718C22.1346 15.8747 22.1221 16.2547 22.0646 17.5198C22.011 18.69 21.8155 19.325 21.6513 19.7476C21.4337 20.3076 21.1732 20.7064 20.7532 21.1262C20.3331 21.5463 19.9343 21.8063 19.374 22.0238C18.9515 22.1888 18.3159 22.3839 17.1458 22.4374C15.8806 22.4949 15.5006 22.5074 12.2962 22.5074C9.09165 22.5074 8.71186 22.4949 7.44672 22.4374C6.27659 22.3834 5.64152 22.1878 5.21823 22.0236C4.65817 21.806 4.25812 21.546 3.83808 21.126C3.41803 20.7059 3.15801 20.3069 2.93998 19.7466C2.77571 19.324 2.57994 18.689 2.52669 17.5188C2.46918 16.2537 2.45768 15.8737 2.45768 12.6688C2.45768 9.46396 2.46918 9.08592 2.52669 7.82078C2.58019 6.65065 2.77571 6.01558 2.93998 5.59254C3.15751 5.03248 3.41803 4.63243 3.83808 4.21239C4.25812 3.79234 4.65817 3.53232 5.21823 3.31429C5.64127 3.14927 6.27659 2.95425 7.44672 2.9005C8.55384 2.85049 8.98289 2.83549 11.2196 2.83299V2.83599ZM18.7024 4.82871C17.9074 4.82871 17.2623 5.47302 17.2623 6.26836C17.2623 7.06345 17.9074 7.70852 18.7024 7.70852C19.4975 7.70852 20.1426 7.06345 20.1426 6.26836C20.1426 5.47327 19.4975 4.82821 18.7024 4.82821V4.82871ZM12.2962 6.51139C8.89263 6.51139 6.13308 9.27094 6.13308 12.6746C6.13308 16.0782 8.89263 18.8365 12.2962 18.8365C15.6999 18.8365 18.4584 16.0782 18.4584 12.6746C18.4584 9.27094 15.6996 6.51139 12.296 6.51139H12.2962ZM12.2962 8.67412C14.5055 8.67412 16.2967 10.4651 16.2967 12.6746C16.2967 14.8838 14.5055 16.675 12.2962 16.675C10.0868 16.675 8.29581 14.8838 8.29581 12.6746C8.29581 10.4651 10.0868 8.67412 12.2962 8.67412V8.67412Z"
+                                            fill="white"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="header__icons-img">
+                                <a href="#" class="header__icons-img-link">
+                                    <svg
+                                        width="26"
+                                        class="header__icons-image"
+                                        height="23"
+                                        viewBox="0 0 26 23"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            id="Twitter"
+                                            d="M0.137817 19.4233C2.81756 19.5741 5.16089 18.9477 7.44621 17.2888C5.13769 16.8944 3.53681 15.8387 2.66676 13.6578C3.3396 13.565 3.93123 13.739 4.62727 13.4606C2.35355 12.4629 0.88026 10.9664 0.822257 8.37949C1.5415 8.43749 2.08673 8.91312 2.94518 8.84352C0.857065 6.80181 0.219022 4.57449 1.52989 1.87154C3.71081 4.37728 6.26296 6.08257 9.38352 6.88301C9.55753 6.92941 9.71993 6.97582 9.89394 7.01062C10.6944 7.19623 11.6456 7.59065 12.1329 7.53265C12.9681 7.42824 12.1329 6.46539 12.3417 5.21252C13.0029 1.31471 17.2951 -0.460185 20.4737 1.82514C21.4018 2.49797 22.1326 2.48637 23.0491 2.08035C23.5247 1.87154 24.0119 1.66273 24.5803 1.41912C24.4527 2.53278 23.5943 3.14761 22.9099 3.97125C23.6871 4.14526 24.3135 3.92485 25.0328 3.69284C24.7891 4.49328 24.1859 4.94571 23.6407 5.38653C23.0723 5.83895 22.8518 6.31458 22.8286 7.05702C22.4806 18.298 9.70834 26.9869 0.973071 20.0729C0.126225 19.4001 0.949861 20.0729 0.137817 19.4233Z"
+                                            fill="white"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="header__icons-img">
+                                <a href="#" class="header__icons-img-link">
+                                    <svg
+                                        width="24"
+                                        class="header__icons-image"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            id="Vector"
+                                            d="M11.8756 0.134567C5.4634 0.134567 0.265259 5.33271 0.265259 11.745C0.265259 18.1572 5.4634 23.3553 11.8756 23.3553C18.2879 23.3553 23.486 18.1572 23.486 11.745C23.486 5.33271 18.2879 0.134567 11.8756 0.134567ZM16.9286 16.9844C16.781 17.237 16.5153 17.3779 16.2424 17.3779C16.1064 17.3779 15.9685 17.3429 15.8426 17.2693C13.7562 16.05 11.3459 15.854 9.69085 15.9044C7.85757 15.9601 6.51315 16.322 6.49979 16.3257C6.07719 16.4412 5.64046 16.1925 5.52454 15.7699C5.40867 15.3474 5.65648 14.911 6.07887 14.7946C6.13947 14.7779 7.58619 14.385 9.598 14.3186C10.783 14.2795 11.9238 14.3621 12.9883 14.5641C14.3365 14.8198 15.5664 15.2688 16.6437 15.8984C17.0224 16.1196 17.1499 16.6059 16.9286 16.9844ZM18.4047 13.9188C18.2299 14.218 17.9151 14.3848 17.5918 14.3849C17.4307 14.3849 17.2674 14.3435 17.1182 14.2563C14.6469 12.8119 11.7917 12.5799 9.83137 12.6395C7.65976 12.7055 6.06725 13.1342 6.05145 13.1386C5.55098 13.2751 5.03357 12.9808 4.89625 12.4803C4.75899 11.9797 5.05258 11.4628 5.55288 11.325C5.62466 11.3052 7.33832 10.8397 9.72136 10.7611C11.1251 10.7149 12.4764 10.8127 13.7373 11.0518C15.3343 11.3548 16.7911 11.8866 18.0672 12.6324C18.5157 12.8944 18.6668 13.4704 18.4047 13.9188ZM19.3121 11.1314C19.1144 11.1314 18.9141 11.0806 18.7311 10.9736C12.8556 7.53988 5.23404 9.58122 5.15775 9.60229C4.54348 9.77154 3.90846 9.41078 3.73926 8.79656C3.57002 8.18234 3.93077 7.54726 4.545 7.37807C4.63301 7.3538 6.73501 6.78285 9.65805 6.68647C11.38 6.62978 13.0374 6.74968 14.584 7.04305C16.5429 7.41467 18.3299 8.0669 19.8952 8.98172C20.4452 9.30316 20.6305 10.0096 20.3091 10.5597C20.0946 10.9267 19.7086 11.1314 19.3121 11.1314Z"
+                                            fill="white"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <main class="main">
+                <section class="page__tour">
+                    <div class="tour__container">
+                        <div class="tour__inner">
+                            <div class="tour__logo">
+                                <img
+                                    src="./img/main/tour/Logologo.png"
+                                    alt="logo"
+                                    class="tour__logo-image"
+                                />
+                            </div>
+                            <div class="tour__body">
+                                <div class="tour__subtitle">
+                                    <h2 class="tour__subtitle-text">
+                                        NIGHT DRIVE
+                                    </h2>
+                                </div>
+                                <div class="tour__title">
+                                    <h1 class="tour__title-text">UK Tour</h1>
+                                </div>
+                                <div class="tour__text">
+                                    <p class="tour__date">
+                                        <span class="tour__date-number"
+                                            >04 MAY</span
+                                        >
+                                        -
+                                        <span class="tour__date-number"
+                                            >17 MAY</span
+                                        >
+                                    </p>
+                                    <p class="tour__city">London, Glasgow,</p>
+                                    <p class="tour__city">
+                                        Birmingham & Manchester
+                                    </p>
+                                </div>
+                                <div class="tour__btns">
+                                    <div class="tour__btn">
+                                        <a
+                                            href="#"
+                                            class="tour__btn-link tour__btn-link-color"
+                                            >TICKETS</a
+                                        >
+                                    </div>
+                                    <div class="tour__btn">
+                                        <a href="#" class="tour__btn-link"
+                                            >MORE INFO</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour__loading">
+                            <a href="#page__info" class="tour__loading-link"
+                                ><img
+                                    src="./img/main/tour/arrow.svg"
+                                    alt="loading"
+                                    class="tour__loading-image"
+                            /></a>
+                        </div>
+                    </div>
+                    <div class="tour__lines">
+                        <img
+                            src="./img/main/tour/Lines.svg"
+                            alt="img"
+                            class="tour__lines-img"
+                        />
+                    </div>
+                </section>
+                <section class="page__info" id="page__info">
+                    <div class="info__container">
+                        <div class="info__inner">
+                            <div class="info__text">
+                                <div class="info-title title">
+                                    <h2 class="info-title-text title-text">
+                                        INFO
+                                    </h2>
+                                </div>
+                                <div class="info__title">
+                                    <h2 class="info__title-text">
+                                        Experience a transcendent musical
+                                        odyssey as Velvet Clouds, the
+                                        captivating post-rock band renowned for
+                                        their atmospheric soundscapes, embarks
+                                        on an unforgettable UK tour.
+                                    </h2>
+                                </div>
+                                <div class="info__subtitle">
+                                    <p
+                                        class="info__subtitle-text info__subtitle-text-marg"
+                                    >
+                                        Join us between May 4th and May 17th for
+                                        an immersive journey into the depths of
+                                        sound and emotion. Velvet Clouds will
+                                        weave their enchanting melodies,
+                                        pulsating rhythms, and soaring
+                                        crescendos, enveloping you in a symphony
+                                        of ethereal beauty.
+                                    </p>
+                                    <p class="info__subtitle-text">
+                                        Step into a world where music transcends
+                                        boundaries and transports you to realms
+                                        unknown. Through their latest album and
+                                        timeless favorites, Velvet Clouds will
+                                        captivate your senses, evoking powerful
+                                        emotions and leaving an indelible mark
+                                        on your soul.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="page__line">
+                    <div class="line__container">
+                        <div class="line__inner">
+                            <div class="line__left">
+                                <div class="line__box">
+                                    <img
+                                        src="./img/main/line/Vectorarrow-vector.svg"
+                                        alt="img"
+                                        class="line__img"
+                                    />
+                                </div>
+                                <div class="line__box">
+                                    <img
+                                        src="./img/main/line/Vectorarrow-vector.svg"
+                                        alt="img"
+                                        class="line__img"
+                                    />
+                                </div>
+                                <div class="line__box">
+                                    <img
+                                        src="./img/main/line/Vectorarrow-vector.svg"
+                                        alt="img"
+                                        class="line__img"
+                                    />
+                                </div>
+                            </div>
+                            <div class="line__right">
+                                <div class="line__box">
+                                    <img
+                                        src="./img/main/line/Vectorarrow-vector.svg"
+                                        alt="img"
+                                        class="line__img"
+                                    />
+                                </div>
+                                <div class="line__box">
+                                    <img
+                                        src="./img/main/line/Vectorarrow-vector.svg"
+                                        alt="img"
+                                        class="line__img"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="page__schedule" id="page__schedule">
+                    <div class="schedule__container">
+                        <div class="schedule__inner">
+                            <div class="schedule__title title">
+                                <h2 class="schedule__title-text title-text">
+                                    schedule
+                                </h2>
+                            </div>
+                            <div class="schedule__content">
+                                <div class="schedule__lines">
+                                    <div class="schedule__line">
+                                        <div class="schedule__line-text">
+                                            <span class="schedule__line-date"
+                                                >04 MAY</span
+                                            >
+                                            - The O2 London
+                                        </div>
+                                        <div class="schedule__line-btn">
+                                            <a
+                                                href="#"
+                                                class="schedule__line-btn-link"
+                                                >TICKETs</a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="schedule__line">
+                                        <div class="schedule__line-text">
+                                            <span class="schedule__line-date"
+                                                >06 MAY</span
+                                            >
+                                            - The O2 London
+                                        </div>
+                                        <div class="schedule__line-btn">
+                                            <a
+                                                href="#"
+                                                class="schedule__line-btn-link"
+                                                >TICKETs</a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="schedule__line">
+                                        <div class="schedule__line-text">
+                                            <span class="schedule__line-date"
+                                                >07 MAY</span
+                                            >
+                                            - The O2 London
+                                        </div>
+                                        <div class="schedule__line-btn">
+                                            <a
+                                                href="#"
+                                                class="schedule__line-btn-link"
+                                                >TICKETs</a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="schedule__line">
+                                        <div class="schedule__line-text">
+                                            <span class="schedule__line-date"
+                                                >13 MAY</span
+                                            >
+                                            - OVO Hydro, Glasgow
+                                        </div>
+                                        <div class="schedule__line-btn">
+                                            <a
+                                                href="#"
+                                                class="schedule__line-btn-link"
+                                                >TICKETs</a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="schedule__line">
+                                        <div class="schedule__line-text">
+                                            <span class="schedule__line-date"
+                                                >14 MAY</span
+                                            >
+                                            - Resorts World, Birmingham
+                                        </div>
+                                        <div class="schedule__line-btn">
+                                            <a
+                                                href="#"
+                                                class="schedule__line-btn-link"
+                                                >TICKETs</a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="schedule__line">
+                                        <div class="schedule__line-text">
+                                            <span class="schedule__line-date"
+                                                >16 MAY</span
+                                            >
+                                            - AO Arena, Manchester
+                                        </div>
+                                        <div class="schedule__line-btn">
+                                            <a
+                                                href="#"
+                                                class="schedule__line-btn-link"
+                                                >TICKETs</a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="schedule__line">
+                                        <div class="schedule__line-text">
+                                            <span class="schedule__line-date"
+                                                >17 MAY</span
+                                            >
+                                            - AO Arena, Manchester
+                                        </div>
+                                        <div class="schedule__line-btn">
+                                            <a
+                                                href="#"
+                                                class="schedule__line-btn-link"
+                                                >TICKETs</a
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="page__img">
+                    <div class="img__container">
+                        <img
+                            src="./img/main/image/pexels-wendy-wei-4142436.png"
+                            alt="img"
+                            class="img__image"
+                        />
+                    </div>
+                </div>
+                <section class="page__contact" id="page__contact">
+                    <div class="contact__container">
+                        <div class="contact__inner">
+                            <div class="contact__title title">
+                                <h2 class="contact__title-text title-text">
+                                    CONTACT
+                                </h2>
+                            </div>
+                            <div class="contact__subtitle">
+                                <p class="contact__subtitle-text">
+                                    Fill out the booking form below to ask any
+                                    questions, or reach out to us directly at
+                                    <a
+                                        href="help@velvetclouds.com"
+                                        class="contact__subtitle-link"
+                                        >help@velvetclouds.com</a
+                                    >
+                                    with any questions or concerns.
+                                </p>
+                            </div>
+                            <form action="" class="form">
+                                <div class="contact__form">
+                                    <div class="contact__form-input-line">
+                                        <div class="contact__form-name">
+                                            Full Name
+                                        </div>
+                                        <input
+                                            type="text"
+                                            placeholder="Full Name"
+                                            name="name"
+                                            class="contact__form-input"
+                                        />
+                                    </div>
+                                    <div class="contact__form-input-line">
+                                        <div class="contact__form-name">
+                                            Email
+                                        </div>
+                                        <input
+                                            type="tel"
+                                            placeholder="Email"
+                                            name="tel"
+                                            class="contact__form-input"
+                                        />
+                                    </div>
+                                    <div class="contact__form-input-line">
+                                        <div class="contact__form-name">
+                                            Phone
+                                        </div>
+                                        <input
+                                            type="email"
+                                            placeholder="Phone"
+                                            name="email"
+                                            class="contact__form-input"
+                                        />
+                                    </div>
+                                    <div class="contact__form-input-line">
+                                        <div class="contact__form-name">
+                                            Message
+                                        </div>
+                                        <textarea
+                                            class="contact__form-textarea"
+                                            name="message"
+                                            placeholder="Message"
+                                            cols="30"
+                                            rows="10"
+                                        ></textarea>
+                                    </div>
+                                    <div class="contact__form-btn">
+                                        <button
+                                            type="submit"
+                                            class="contact__form-button"
+                                        >
+                                            Submit
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="page__footer">
+                    <div class="footer__container">
+                        <div class="footer__inner">
+                            <div class="footer__body">
+                                <div class="footer__logo">
+                                    <a href="#" class="footer__logo-link"
+                                        ><img
+                                            src="./img/main/tour/Logologo.png"
+                                            class="footer__logo-image"
+                                            alt="logo"
+                                    /></a>
+                                </div>
+                                <div class="footer__img">
+                                    <a
+                                        href="#"
+                                        class="footer__content-img-link"
+                                    >
+                                        <svg
+                                            width="100"
+                                            class="footer__img-image"
+                                            height="97"
+                                            viewBox="0 0 100 97"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                id="XIDE"
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M91.8918 27.2808V0.0065918H96.969V27.2808H91.8918ZM10.3296 12.7604L1.79999 27.4833V27.4864H7.42794L13.0959 17.6343L18.7639 27.4864H24.3918L15.8806 12.7635L23.0933 0.209179H17.5607L13.099 7.93257L8.65262 0.209179H3.09851L10.3296 12.7604ZM99.9 96.3066V69.0324H82.5761V73.71H94.8259V81.2248H85.3239V85.9024H94.8259V91.629H82.9761V96.3066H99.9ZM0.844727 96.3068H28.206H28.2122V87.7981C28.2122 86.1449 27.9383 84.5806 27.3906 83.1083C26.8429 81.636 26.0336 80.2956 24.9659 79.0902C23.8981 77.8847 22.4704 76.9277 20.6826 76.2192C18.8948 75.5107 16.8455 75.1579 14.5284 75.1579C12.2114 75.1579 10.1621 75.5107 8.37431 76.2192C6.58653 76.9277 5.15877 77.8847 4.09103 79.0902C3.02021 80.2956 2.21402 81.636 1.6663 83.1083C1.11858 84.5806 0.844727 86.1418 0.844727 87.7981V96.3068ZM23.5135 89.3778V91.2458H5.54341V89.3778C5.54341 88.1816 5.6788 87.0835 5.95266 86.0805C6.22652 85.0775 6.67269 84.1144 7.29734 83.1942C7.9189 82.274 8.8451 81.5471 10.0729 81.0134C11.3006 80.4796 12.7868 80.2128 14.5284 80.2128C16.2701 80.2128 17.7563 80.4796 18.984 81.0134C20.2118 81.5471 21.1349 82.274 21.7596 83.1942C22.3811 84.1144 22.8304 85.0775 23.1042 86.0805C23.3781 87.0865 23.5135 88.1846 23.5135 89.3778Z"
+                                                fill="white"
+                                            />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="footer__text">
+                                Velvet Clouds Night Drive UK Tour website. All
+                                rights reserved © 2023. Designed by XIDE.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__pos-lines">
+                        <img
+                            src="./img/footer/Linesfooter-lines.svg"
+                            alt="img"
+                            class="footer__pos-lines-image"
+                        />
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
